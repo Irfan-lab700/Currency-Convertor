@@ -1,0 +1,86 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background: #1f242d;
+}
+.container{
+    padding:2rem;
+    border :2px solid #78f0f8;
+    box-shadow: 0 0 2rem #6ef5ea;
+    border-radius: 1rem;
+    background-color:#fdf6f6;
+    min-width: 40vh;
+}
+form{
+    margin:2rem 0 2rem 0;
+}
+form select,button,input{
+    width:100%;
+    border-radius:0.75rem;
+}
+form input{
+    border: 1px solid rgb(253, 249, 249);
+    border: 1px solid grey;
+    font-size: 1rem;
+    height :3rem;
+    padding:0.5rem;
+}
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1rem;
+}
+.select-container img{
+    max-width:2rem;
+}
+.dropdown i {
+    font-size:1.5rem;
+    margin-top:1rem;
+}
+.select-container{
+       display:flex;
+       width:6rem;
+       align-items: center;
+         justify-content: center;
+         border:1px solid lightgray;
+         border-radius:0.5rem;
+}
+.select-container select{
+    font-size: 1rem;
+    width:auto;
+}
+.msg{
+    margin:2rem 0 2rem 0;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #1f242d;
+    padding: 10px 10px;
+    color: rgb(153, 250, 252);
+    border-radius: 0.75rem;
+    box-shadow: 0 0 01rem rgb(127, 225, 253);
+}
+form button{
+    background-color:rgb(73, 8, 63);
+    color:white;
+    height:3rem;
+    font-size:1.15rem;
+    cursor: pointer;
+}
+form button:hover{
+    border: 2px solid rgb(159, 239, 246);
+    box-shadow: 0 0 1rem rgb(149, 239, 244);
+}
+.container h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:'Poppins',sans-serif;
+    background:#1f242d;
+    color:rgb(237, 249, 249);
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 01rem rgb(139, 233, 248);
+}
