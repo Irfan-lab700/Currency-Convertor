@@ -25,4 +25,4 @@ How It Works:
 The app fetches real-time currency rates from an API and calculates conversion based on selected currencies.
 
 Live Demo :
-https://memory-match-game-steel.vercel.app/
+https://currency-convertor-roan-one.vercel.app/
